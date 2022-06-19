@@ -1,0 +1,192 @@
+/*
+Theme Name: Jungheinrich Magazin
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 4.3.3.1584124907
+Updated: 2020-03-13 19:41:47
+
+*/
+
+@font-face {
+  font-family: 'ETmodules';
+  font-style: normal;
+  font-weight: 400;
+  src: url('modules.eot'); 
+  src: local(''),
+       url('modules.eot?#iefix') format('embedded-opentype'),  
+       url('modules.woff') format('woff'), 
+       url('modules.ttf') format('truetype'), 
+       url('modules.svg') format('svg'); 
+}
+/* sidebar out */
+/*#sidebar {display:none;}*/
+/*** Take out the divider line between content and sidebar ***/
+#main-content .container:before {background: none;}
+/*** Expand the content area to fullwidth ***/
+@media (min-width: 981px){
+#left-area {    width: 100%;    padding: 23px 0px 0px !important;    float: none !important;}
+	.single #left-area {width:100% !important}
+}
+#sidebar {display:none;}
+
+.home .et_pb_slide_content {display:none;}
+.home .slidehl a {font-size: 2.625em;    color: #FFF; line-height: 1.4em;}
+.post-meta {/*position:absolute; top:0;*/ display: inline-block;}
+
+/*.home article .post-meta a { background:#FFF; border:2px solid #006580; color:#006580;}*/
+
+
+
+/* tabellen */
+.tablesigns, .tablelines, .tablelineswhite {margin:35px auto;}
+.tablesigns tbody, .tablelines tbody, .tablelineswhite tbody {border-bottom: 5px solid #006580;}
+.tablesigns th, .tablelines th, .tablelineswhite th {background: #006580;}
+.tablesigns thead th, .tablelines thead th, .tablelineswhite thead th  {color:#FFF;}
+.tablesigns tr td, .tablelines tr td, .tablelineswhite tr td {vertical-align: top;}
+.tablelines td, .tablelineswhite td {border:1px solid #dddddd;}
+.tablesigns tr td a { /*   font-size: 1.25em;    display: inline-block;    margin-bottom: 10px;*/ text-decoration:  none; /*font-weight: 600;*/}
+.tablesigns tr:nth-child(2n), .tablelines tr:nth-child(2n) {background:#f1f1f1;}
+
+
+@media (max-width: 480px){
+	.tablesigns	td, .tablesigns	th {display: block; width:100%}	
+	}
+
+/* shortcodes */
+
+/*single */
+	@media (min-width: 981px){
+	 .single .entry-content, .single .et_post_meta_wrapper {padding:35px 80px;} 		
+	}
+.single .et_post_meta_wrapper {padding-top:0}
+.single h2 {margin-top:55px;}
+
+.relatedposts {border-top:1px solid #ddd; padding-top:35px;}
+.relatedthumb.column.size-1of3 {    width: 100%;    margin-right: 0%; display:inline-block;}
+/*@media (min-width: 630px){
+.relatedthumb.column.size-1of3 {    width: 29.667%;  margin-right: 5.5%;} 		
+	}*/
+.single .et_post_meta_wrapper .slick-slide img {padding:0 !important; margin-bottom: 6px;}
+
+/*.single .et_post_meta_wrapper .slick-slide p {border:2px solid #006580; padding:5px}*/
+.single .slick-slide {padding:0 15px}
+.relatedposts .et_pb_salvattore_content .size-1of3:last-child {margin-right:0;}
+.relatedposts .topline {margin: 15px 0 20px 0;font-size: 1.5rem;color: #005066;  text-align: center;}
+
+/* single sites */
+.entry-content .overview a { text-decoration:none;}
+.entry-content .overview a:hover  { text-decoration:underline;}
+
+.importantinfo-blue, .importantinfo1, .importantinfo-grey,.importantinfosmall { padding: 35px 50px 35px 140px !important;  width:100%;  margin: 15px auto 35px;    color: #FFF;    background: #006580;   line-height: 1.4;  position:relative;}
+.importantinfo-blue a, .importantinfo1 a, .importantinfo-grey a,.importantinfosmall a {text-decoration:underline;} 
+.importantinfo-blue a, .importantinfo1 a {color:#FFF}
+.importantinfo-blue:before, .importantinfo1:before, .importantinfo-grey:before,.importantinfosmall:before  {content: "Info!";    color: #006580;    position: absolute;    background: #FFF;    font-size: 24px;      left: 20px;    top:35px;    padding: 5px 8px;}
+
+.importantinfo-grey:before, .importantinfosmall:before {content:"Tipp:"}
+.importantinfo-grey,.importantinfosmall {  background:#DDD; color:#006580;}
+
+
+.it .importantinfo-grey {padding-left:170px !important;}
+@media (max-width: 480px) {
+.it	.importantinfo-grey {    padding: 85px 20px 35px 20px!important;}
+}
+
+
+
+/* search results */
+.search-results #left-area {width:100% !important}
+/*.search-results article {width: 29.667%;    margin-right: 5.5%; float:left;height:620px;}*/
+.search-results #left-area article:nth-child(3n+1) {margin-right: 0}
+.search-results .post-meta {    display: block;}
+
+/* listings  */
+ol {margin-top:25px;}
+ol li {margin-bottom:7px; color:#000000;}
+.schema-how-to-steps li {border-bottom: 1px #c4c4c4 solid;padding: 10px 0 20px 0;    margin-bottom: 10px;}
+.schema-how-to-steps li:last-child {border-bottom:0 none; padding-bottom:0;}
+.schema-how-to-steps li::marker {font-weight: bold;}
+.schema-how-to-steps li p {padding-bottom:0.5em;}
+
+
+
+.wp-block-button {margin-top:35px; text-align:center;}
+/*.shoplink a.wp-block-button__link{ padding: 20px  240px 20px 20px; text-decoration:none; position: relative;}*/
+
+/* newsletter-teaser */
+.coupon-teaser .secondcol { display:block; vertical-align: top; width:72%; float:left;}
+.footer-top-teaser .container {padding-top:0 !important; width:100%; }
+.coupon-img-box {display:block;    width: 28%; float:left; text-align: center;}
+.coupon-img-box img {width:150px; height: auto}
+.coupon-text-box strong {color: #005066;font-size: 1.5rem;    font-family: 'Signika regular',Helvetica,Arial,Lucida,sans-serif; font-weight: 400;}
+.coupon-text-box strong, .coupon-text-box span {margin-bottom:13px; display:block;}
+#newsletterTeaserForm .col-xs-12 { padding:0 15px; width:25%;float: left;}
+#newsletterTeaserForm .col-xs-12:first-child {padding-left:0}
+#newsletterTeaserForm input, #newsletterTeaserForm select,  #newsletterTeaserForm button.col-xs-12{ height:40px; padding:2px 5px; width:100%; border:1px solid #006580;}
+#newsletterTeaserForm input:focus {background:#f6f6f6}
+#newsletterTeaserForm button {background: #006580;       color: #FFF;    font-size: 1.25em;}
+#newsletterTeaserForm button:hover {cursor: pointer;}
+.form-group.coupon-teaser-form {margin-bottom:13px;}
+.form-group .clearfix {  overflow: auto;}
+.form-group .clearfix::after {  content: "";  clear: both;  display: table;}
+@media (max-width:1200px) {
+	.hubwagenfix {right:0 !important;}
+	#newsletterTeaserForm .col-xs-12 {    padding: 0 8px;}
+}
+/*@media (max-width:1199px) {
+.et_pb_svg_logo #logo {     max-width: 250px;}
+	#et-top-navigation {padding-left:224px !important}
+	#top-menu li a {    font-size: 16px !important;}
+}*/
+@media (max-width:1150px) {
+	.nlinfo {bottom:-70px !important;}
+}
+@media (max-width:790px) {
+	.nlinfo {font-size:12px; width:70% !important; line-height: 1.2em;bottom:-80px !important; }
+}
+
+
+@media (max-width:1024px) {
+#newsletterTeaserForm button {    font-size: 1em;}
+	.et_pb_image_0.hubwagenfix {width:150px;}
+	.coupon-img-box {    width: 20%; text-align:left; }
+	.coupon-img-box img {max-width:90%; height: auto;}
+	.coupon-teaser .secondcol {width:80%}
+}
+@media (max-width:980px) {
+#main-header .et_menu_container {width:100% !important; padding:0 5%;}
+.et_header_style_left .logo_container {width:90%}
+/*.et_pb_svg_logo #logo {    max-width: 100%;}*/
+.et_pb_image_0.hubwagenfix {bottom:20px;}	
+.nlteasser {margin-bottom:60px !important;}
+.nlinfo {    bottom: -40px !important;
+}
+}
+@media (max-width:768px) { 
+.hubwagenfix {right:-8px !important;}
+.single .slick-slide {padding:0 10px}
+}
+@media (max-width:700px) {
+	.et_pb_image_0.hubwagenfix {width:150px;}
+	.coupon-img-box {    width: 100%;  }
+	.coupon-img-box img {max-width:150px; }
+	.coupon-teaser .secondcol {width:100%}
+	.home .slidehl a {    font-size: 2.0em;}
+}
+
+@media (max-width:599px) {
+#newsletterTeaserForm .col-xs-12 { padding:15px 0; width:100%;float: none;}
+	.nlinfo {bottom:-90px !important; }
+}
+
+@media (max-width:480px) {
+	.nlinfo {bottom:-100px !important; width:100% !important }
+	.importantinfo-blue, .importantinfo1, .importantinfo-grey, .importantinfosmall {		padding: 25px 50px 35px 110px!important; }
+	.importantinfo-blue:before, .importantinfo1:before, .importantinfo-grey:before, .importantinfosmall:before {    top: 25px;}
+	.single .slick-slide {    padding: 0 20px;}
+}
+
+#footer-widgets .footer-widget li:before {display: none}
