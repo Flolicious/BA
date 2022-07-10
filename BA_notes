@@ -1,0 +1,32 @@
+Separator
+ - steuert und sicher die elektrochemischen Reaktion im inneren des Energiespeichers
+ - isoliert beide Elektroden --> kein Kurzschluss
+ - ausschließlich Lithium-Ionen können hindurchgelange
+ - gewährt Gasaustausch in der geschlossenen Lithium-Akku-Zelle
+ - besteht aus mikroporösen Membranen
+ - Kombination von Vliesstoffen mit keramischer Beschichtung
+ - besonders flexibel, dennoch hitzebeständig bis 700°C
+ 
+BMS --> OBS (on board sense), SCU (stack control unit), BCU (battery control unit)
+
+Lithium-Ionen Akkus können aufgebaut sein als:
+ - Lithium-Polymer-Akku: Elektrolyt --> Folie auf Polymerbasis (gelartige Konsistenz), Akku besonders klein und verschiedene Bauformen, leistungsfähig, hohe Energiedichte, mechanisch, elektrisch und thermisch empfindlich
+ - Lithium-Cobaltdioxid-Akku. neigen bei Überlastung zu thermischen Durchgehen
+ - Lithium-Titanat-Akku: Schnellladekapazität, Betrieb bei bis zu -40°C
+ - Lithium-Eisenphosphat-Akku: Elektrolyt hat feste Form, geringe Energiedichte, neigen nicht zu thermischen Durchgehen bei mechanischer Beschädigung, kleinerMemory-Effekt
+ 
+Memory-Effekt bei Lithium-Ionen-Akkus lediglich im Promille-Bereich
+
+Blockaufbau --> bei kleineren Systemen
+modularer Aufbei --> bei größeren Systemen
+
+Alterung durch erhöhte Temperatur --> entstehende Verlustwärme muss abgeführt werden
+
+Funktionale Ebenen des BMS
+ - mechanische Integration
+ - elektrisches Management
+ - thermisches Management
+ - Kommunikation zur Fahrzeugseite
+ 
+zwei Leistungsrelais --> aus Sicherheitsgründen
+HVIL (High Voltage Interlock)
