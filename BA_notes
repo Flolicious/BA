@@ -30,3 +30,19 @@ Funktionale Ebenen des BMS
  
 zwei Leistungsrelais --> aus Sicherheitsgründen
 HVIL (High Voltage Interlock)
+
+IRP 120
+ - Messung des Innenwiderstandes
+ - Messung des Widerstandes der Modul-zu-Modul-Verbindung, inklusive Kontaktwiderstand
+ - Kelvin-Klemmen werden genutzt, um den Widerstand der Messleitungen zu kompensieren
+ - Über die Kelvin-Klemmen (Stromsenke) wird eine Gleichstromstufe angelegt
+ - Der Spannungsabfall wird über die Tastköpfe gemessen:
+ 	--> V1 für Innenwiderstand
+ 	--> V2 für Kontaktwiderstand an der Busbar
+ - Berechnung des Innenwiderstandes des Moduls bzw. des Kontaktwiderstandes
+ - Strompuls --> einstellbar, bis zu 40A, hängt von Batterie-Typ und der Charakteristik der Kontaktflächen ab
+ - Pulsdauer --> einstellbar, bis zu 10 000ms, hängt von Batterie-Typ und der Charakteristik der Kontaktflächen ab
+ - Arbeitsspannung --> bis zu 85VDC
+ - Sicherheit --> gegeben bis zu 1000V
+ - Auflösung --> <1µOhm
+
