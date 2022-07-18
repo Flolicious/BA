@@ -31,6 +31,12 @@ Funktionale Ebenen des BMS
 zwei Leistungsrelais --> aus Sicherheitsgründen
 HVIL (High Voltage Interlock)
 
+Energie einer Zelle = nominale Kapazität + mittlere Entladespannung (nominale Spannung) --> Einheit Wh
+spezifische Energie und Energiedichte sind wichtige Kenngrößen --> Maß für die nutzbare elektrische Energie bezogen auf die Masse [Wh/kg] bzw. Volumen [Wh/l]
+Energiedichte erhöhen --> Materialien mit höheren Zellspannungen oder höhere spezifische Kapazitäten
+Vorteil bei Li-Ion-Zellen mit lithiiertem Metalloxid und Graphit ist, dass die Aktivmaterialien im stabilen Zustand zu Elektroden verarbeitet werden. Nach der Herstellung im ungeladenen Zustand (0V).
+Formation --> erstmaliges Laden, bei Graphit und Kohlenstoffen wird eine Schutzschicht (SEI) um die Partikeloberfläche gebildet. Dabei wird Lithium verbraucht, welches für die Zyklisierung nicht mehr zur Verfügung steht.
+
 IRP 120
  - Messung des Innenwiderstandes
  - Messung des Widerstandes der Modul-zu-Modul-Verbindung, inklusive Kontaktwiderstand
@@ -45,4 +51,6 @@ IRP 120
  - Arbeitsspannung --> bis zu 85VDC
  - Sicherheit --> gegeben bis zu 1000V
  - Auflösung --> <1µOhm
+ 
+
 
